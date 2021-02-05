@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/22bd594f6c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:1440px)" href="./css/phone.css">
+
+    <title>Resturant</title>
+</head>
+
+<body>
+    <header>
+        <nav id="main">
+            <section id="logo">
+                <img src="./img/label-2780146_1280.png" alt="logo">
+            </section>
+            <ul>
+                <li class="iteam"><a href="#home" id="activate">Home</a></li>
+                <li class="iteam"><a href="#">Menu</a></li>
+                <li class="iteam"><a href="#">Services</a></li>
+                <li class="iteam"><a href="#">Blog</a></li>
+                <li class="iteam"><a href="#">Contact Us</a></li>
+                <li>
+                    <section id="order">
+                        <a href="#">ORDER ONLINE</a>
+                    </section>
+                </li>
+
+            </ul>
+            <!-- <section id="order">
+                <a href="#">ORDER ONLINE</a>
+            </section> -->
+            <section id="favicons">
+                <i class="fab fa-facebook-square fa-2x"></i>
+                <i class="fab fa-twitter-square  fa-2x"></i>
+                <i class="fab fa-instagram fa-2x"></i>
+                <i class="fab fa-youtube fa-2x"></i>
+            </section>
+        </nav>
+    </header>
+    <section id="home">
+        <h1 class="caption">Offreing The Best Tasting Experience!</h1>
+        <button class="btn">BOOK A TABLE</button>
+    </section>
+
+
+    <section class="discover-container">
+        <h2 class="h-discover">Discover Our Services</h2>
+        <section class="discover">
+
+            <section class="card">
+                <img src="./img/10209.jpg" alt="photo">
+                <h5 class="h5-card">LATE MORNING BRUNCH</h5>
+                <H6 class="h6-card">Start your day with us!</H6>
+                <article class="para-card">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+                    temporibus totam aspernatur omnis expedita nisi at exercitationem sunt. </article>
+                <button class="booknow">BOOK NOW</button>
+            </section>
+
+            <section class="card">
+                <img src="./img/woman-1979272_1920.jpg" alt="">
+                <h5 class="h5-card">COOKING LESSONS</h5>
+                <H6 class="h6-card">Do you love cooking?</H6>
+                <article class="para-card">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+                    temporibus totam aspernatur omnis expedita nisi at exercitationem sunt. </article>
+                <button class="booknow">BOOK NOW</button>
+            </section>
+
+            <section class="card">
+                <img src="./img/glasses-919071_1920.jpg" alt="">
+                <h5 class="h5-card">WINE TASTING EVENINGS</h5>
+                <H6 class="h6-card">Bring your family &amp;friends</H6>
+                <article class="para-card">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+                    temporibus totam aspernatur omnis expedita nisi at exercitationem sunt. </article>
+                <button class="booknow">BOOK NOW</button>
+            </section>
+        </section>
+    </section>
+
+    <section id="parallax">
+
+        <h2 class="h-para">Welcome</h2>
+        <p class="p-para">To the best restaurant in the city!</p>
+    </section>
+
+    <section class="special-container">
+        <h2>Today's Special</h2>
+        <p>
+            We do not serve only food in our restaurant but fulfill dreams with a taste. Nestled in the rooftop,
+            Our restaurant is the most premium & exclusive restaurant</p>
+    </section>
+    <section class="special">
+        <div class="s-card">
+            <h3>Lorem Soup</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quaerat. Lorem ipsum dolor sit amet.
+            </p>
+            <img src="./img/soup.jpg" alt="">
+        </div>
+        <div class="s-card">
+            <h3>Lorem Pasta</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quaerat. Lorem ipsum dolor sit amet.
+            </p>
+            <img src="./img/pasta-1081128_1920.jpg" alt="">
+        </div>
+        <div class="s-card">
+            <h3>Lorem Rice</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quaerat. Lorem ipsum dolor sit amet.
+            </p>
+            <img src="./img/rice.jpg" alt="">
+        </div>
+        <div class="s-card">
+            <h3>Lorem Fries</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quaerat. Lorem ipsum dolor sit amet.
+            </p>
+            <img src="./img/french.jpg" alt="">
+        </div>
+    </section>
+
+
+    <section id="book">
+        <h2>Reservation</h2>
+        <p>COME AND ENJOY THE HOSPITALITY OF OUR RESTAURANT</p>
+        <section id="form">
+            <section class="left">
+                <form action="" method="POST">
+                    <label for="date">When would you like to book?</label>
+                    <input type="date" name="date" id="date" value="Date">
+                    <input type="text" name="username" id="username" placeholder="Name">
+                    <input type="text" name="phone" placeholder="Phone">
+
+                </form>
+
+            </section>
+            <section class="right">
+                <form action="" method="post">
+
+
+                    <!-- <label for="size">Party Size</label>
+                       <select name="size" id="size">
+                           <option value="1">1</option>
+                           <option value="2">2</option>
+                           <option value="3">3</option>
+                           <option value="4">4</option>
+                           <option value="5">5</option>
+                           <option value="6">6</option>
+                           <option value="7">7</option>
+                           <option value="8">8</option>
+                    </select> -->
+                    <label for="time" class="t-lab">Select Time</label>
+                    <input type="time" name="time" id=time>
+                    <input type="text" name="Email" id="email" placeholder="Email">
+                    <input type="text" name="message" id="message" placeholder="Message">
+                    <button class="btn1">BOOK A TABLE</button>
+                  
+                </form>
+                
+            </section>
+            
+        </section>
+        
+      
+    </section>
+    <footer class="main-foot">
+      <div class="box1"></div>
+      <div class="box2">
+          <div class="contact box">
+              <h2>
+                CONTACT INFORMATION
+              </h2>
+              <p><i class="fas fa-map-marker-alt"></i>Themeforest, Envanto HQ
+                24 Fifth st., Los Angeles, USA</p>
+              <p><i class="fas fa-envelope"></i><a href="mailto:tiwarisuyash40@gmail.com">info@restaurant.com</a></p>
+              <p><i class="fas fa-phone"></i>Phone: (+01) 123 456 7890
+                Support: (+01) 123 789 1200</p>
+          </div>
+          <div class="serve box">
+              <h2>Our Services</h2>
+              <ul>
+                  <li><a href="#">
+                    Fine Dining & Concierge</a></li>
+                  <li><a href="#">Quick Counter Service</a></li>
+                  <li><a href="#">Banquet Table Service</a></li>
+                  <li><a href="#">Family Style Service</a></li>
+                  <li><a href="#">Quick Delivery Service</a></li>
+                  <li><a href="#">Buffet Table Service</a></li>
+                  <li><a href="#">Traditional Counter Service</a></li>
+              </ul>
+          </div>
+          <div class="fine box"><h2>Fine Dine</h2></div>
+      </div>
+      <div class="box3" >
+          <address>
+              <p>Copyright &copy; 2021 Website by Suyash Tiwari</p>
+              <p class="hv"> <a href="#">About Us</a> | <a href="#">Services</a> | <a href="#"> Policy</a></p>
+          </address>
+
+      </div>
+    </footer>
+
+
+</body>
+
+</html>
