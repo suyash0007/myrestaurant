@@ -375,6 +375,7 @@ background-repeat: no-repeat;
     color:white;
    position: relative;
    bottom: 13%;
+   padding: 20px;
 }
 #form{
     height: 400px;
